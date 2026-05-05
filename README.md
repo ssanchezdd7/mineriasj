@@ -1,4 +1,4 @@
-![Portada](images/portada.png)
+![Portada](https://raw.githubusercontent.com/ssanchezdd7/informe-mineria/main/images/portada.png)
 
 # Policy Brief Interactivo de Indicadores Mineros – Provincia de San Juan
 
