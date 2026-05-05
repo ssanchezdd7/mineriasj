@@ -1,23 +1,29 @@
-# Tablero Ejecutivo de Minería – Provincia de San Juan
+# Policy Brief Interactivo de Indicadores Mineros – Provincia de San Juan
 
-Dashboard HTML interactivo para visualizar indicadores estratégicos de minería, cobre, exportaciones y empleo de la Provincia de San Juan, con comparación nacional y un módulo abierto para cargar archivos Excel/CSV y generar gráficos personalizados.
+Aplicación HTML interactiva con enfoque mixto: análisis económico-financiero, impacto territorial y agenda de política pública para el sector minero de San Juan.
 
 ## Objetivo
 
 El tablero está diseñado para apoyar la lectura ejecutiva de indicadores económicos y estadístico-financieros vinculados al sector minero sanjuanino. Integra información pública de la Secretaría de Minería de la Nación, CAEM y el visor oficial de empleo minero en Tableau.
 
-## Contenido del dashboard
+## Características
 
-- Resumen ejecutivo con KPIs principales.
-- Participación de San Juan en exportaciones mineras nacionales.
-- Peso de la minería en las exportaciones provinciales.
-- Variación interanual de exportaciones mineras.
-- Cartera de proyectos de cobre en San Juan.
-- CAPEX y recursos estimados por proyecto.
-- Proyección de exportaciones argentinas de cobre a 2030, 2032 y 2035.
-- Indicadores de empleo minero y comparación regional/nacional.
+- Narrativa tipo informe ejecutivo / policy brief.
+- Botón para exportar o guardar en PDF desde el navegador.
+- Selector de idioma ES / EN.
+- KPIs ejecutivos.
+- Gráficos con Chart.js.
+- Carga de archivos Excel/CSV con selección de hoja, variables, períodos y tipo de gráfico.
 - Visor oficial de empleo minero embebido desde Tableau.
-- Módulo para subir Excel/CSV, elegir hoja, variables, período y tipo de gráfico.
+- Créditos profesionales y nota de uso de IA.
+
+## Cómo exportar PDF
+
+1. Abrir `index.html` en el navegador.
+2. Presionar **Exportar / Guardar PDF**.
+3. En destino, elegir **Guardar como PDF**.
+4. Ajustar escala si fuera necesario.
+5. Guardar.
 
 ## Fuentes principales
 
@@ -91,5 +97,12 @@ Los datos precargados son una base ejecutiva de referencia. Para uso institucion
 - Definiciones estadísticas utilizadas.
 
 ## Licencia sugerida
-
 Uso demostrativo, institucional y educativo. Antes de reutilizar o publicar resultados oficiales, validar los datos con las fuentes primarias correspondientes.
+
+## Créditos
+
+Diseñado por **Silvana Sánchez Di Domenico**.  
+GitHub: https://github.com/ssanchezdd7
+
+Este dashboard fue desarrollado con apoyo de herramientas de inteligencia artificial (ChatGPT - OpenAI) para generación de código, estructuración analítica, diseño UX/UI, integración de visualizaciones, procesamiento de datos y documentación técnica. La interpretación y validación final corresponden al criterio experto de la autora.
+
